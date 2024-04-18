@@ -1,0 +1,22 @@
+npx create-expo-app@latest name_of_app
+npx expo install expo-localization
+npx expo install i18n-js
+
+
+const transalations = {
+    en:{
+        name:
+        busstop:
+        arrival:
+    },
+    mal:{
+        name:
+        busstop:
+        arrival:
+    }
+};
+
+npm install native-notify
+npx expo install expo-device expo-notifications expo-constants
+npm install -g eas-cli
+eas build
